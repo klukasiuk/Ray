@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Libs\GLFW">
+      <UniqueIdentifier>{4aaeb86a-675c-4849-889c-5945cb808c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\FTGL">
+      <UniqueIdentifier>{4d2140fa-9aab-404e-a514-f2cb942ad2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\SOIL">
+      <UniqueIdentifier>{0b029367-9219-4bd5-a342-2450a6768881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{f1b08a1f-f22f-4ee1-934b-13d6a18c2bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimpleGL">
+      <UniqueIdentifier>{9540a1ad-c82b-4a33-b0c8-fd7ea38dfbe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="primitives.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="raymain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimpleGL\camera_SGL.cpp">
+      <Filter>SimpleGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimpleGL\color_SGL.cpp">
+      <Filter>SimpleGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimpleGL\msgbox_SGL.cpp">
+      <Filter>SimpleGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimpleGL\SimpleGL.cpp">
+      <Filter>SimpleGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SimpleGL\vector_SGL.cpp">
+      <Filter>SimpleGL</Filter>
+    </ClCompile>
+    <ClCompile Include="framebuffer.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Libs\GLFW\Include\glfw3.h">
+      <Filter>Libs\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\FTGL\Include\FTGL\ftgl.h">
+      <Filter>Libs\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\SOIL\include\SOIL.h">
+      <Filter>Libs\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="framebuffer.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="hitinfo.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="primitives.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="volume.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\camera_SGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\color_SGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\input_SGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\msgbox_SGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\SimpleGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SimpleGL\vector_SGL.h">
+      <Filter>SimpleGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
