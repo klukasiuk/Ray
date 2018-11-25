@@ -56,9 +56,6 @@
     <ClCompile Include="timer.cpp">
       <Filter>Ray</Filter>
     </ClCompile>
-    <ClCompile Include="raymain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\SimpleGL\camera_SGL.cpp">
       <Filter>SimpleGL</Filter>
     </ClCompile>
@@ -131,9 +128,6 @@
       <Filter>Ray</Filter>
     </ClInclude>
     <ClInclude Include="timer.h">
-      <Filter>Ray</Filter>
-    </ClInclude>
-    <ClInclude Include="volume.h">
       <Filter>Ray</Filter>
     </ClInclude>
     <ClInclude Include="world.h">

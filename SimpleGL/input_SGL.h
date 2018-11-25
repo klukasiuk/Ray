@@ -47,6 +47,7 @@ enum KeyboardKey
 	Key_Enter  = 257,
 	Key_Tab    = 258,
 	Key_Delete = 261,
+	Key_Control = 341,
 
 	Key_Up    = 265,
 	Key_Down  = 264,

@@ -11,7 +11,7 @@ RayTracer::RayTracer(Camera * cam , World w , FrameBuffer * f )
 
   framebuffer = f;
 
-  maxdepth = 2;
+  maxdepth = 3;
 }
 
 RayTracer::~RayTracer()

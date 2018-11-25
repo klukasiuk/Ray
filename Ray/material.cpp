@@ -73,8 +73,8 @@ RGB Phong::Shade(RayTracer * tracer , HitInfo hit )
 
 		diffuseFactor = Dot(inDirection , hit.normal);
 
-		if (diffuseFactor < 0) 
-		continue;
+		if (diffuseFactor < 0)
+			continue;
 
 		if (hit.world->AnyObstacle(hit.HitPoint, hit.world->lights[0].pos))
         continue;
